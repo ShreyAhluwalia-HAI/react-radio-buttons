@@ -287,18 +287,18 @@ export class RadioIcon extends Component {
         padding: 3,
         backgroundColor: '#FFF',
         borderWidth: 2,
-        borderRadius: '50%',
+        
         borderStyle: 'solid',
-        borderColor:'#FFFFFF',
+        borderColor: disabled ? (disabledColor || '#e1e1e1') : (rootColor || '#9E9E9E'),
         marginRight: marginRight || 0,
       },
       checked: {
-        borderColor:'#FFFFFF',
+        borderColor: pointColor || '#8CB9FD',
       },
       inner: {
         width: innerSize || 10,
         height: innerSize || 10,
-        borderRadius: '50%',
+        
         background: pointColor || '#8CB9FD',
       }
     }

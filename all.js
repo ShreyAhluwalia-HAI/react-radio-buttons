@@ -22436,10 +22436,10 @@
 	          borderWidth: 2,
 	          borderRadius: '50%',
 	          borderStyle: 'solid',
-	          borderColor: '#FFFFFF',
+						borderColor: disabled ? disabledColor || '#e1e1e1' : rootColor || '#9E9E9E',
 	        },
 	        checked: {
-	          borderColor: '#FFFFFF',
+	          borderColor: pointColor || '#8CB9FD'
 	        },
 	        inner: {
 	          width: innerSize || 10,
