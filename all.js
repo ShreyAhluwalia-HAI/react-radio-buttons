@@ -22213,7 +22213,7 @@
 	          color: disabled ? disabledColor || '#e1e1e1' : rootColor || '#E0E0E0',
 	          borderWidth: 1,
 	          borderStyle: 'solid',
-	          borderColor: disabled ? disabledColor || '#e1e1e1' : rootColor || '#E0E0E0',
+	          borderColor: '#FFFFFF',
 	          borderRadius: 1,
 	          padding: padding || 16,
 	          flex: 1,
@@ -22221,7 +22221,7 @@
 	          marginRight: horizontal && !last ? (padding || 16) / 2 : 0
 	        },
 	        checked: {
-	          borderColor: pointColor || '#8CB9FD',
+	          borderColor: '#FFFFFF',
 	          color: pointColor || '#8CB9FD'
 	        }
 	      };
@@ -22324,7 +22324,7 @@
 	          color: disabled ? disabledColor || '#e1e1e1' : rootColor || '#E0E0E0',
 	          borderWidth: 1,
 	          borderStyle: 'solid',
-	          borderColor: disabled ? disabledColor || '#e1e1e1' : rootColor || '#E0E0E0',
+	          borderColor: disabled ? disabledColor || '#FFFFFF',
 	          borderRadius: 1,
 	          padding: padding || 16,
 	          flex: 1,
@@ -22332,7 +22332,7 @@
 	          marginRight: horizontal && !last ? (padding || 16) / 2 : 0
 	        },
 	        checked: {
-	          borderColor: pointColor || '#8CB9FD',
+	          borderColor: pointColor || '#FFFFFF',
 	          color: pointColor || '#8CB9FD'
 	        }
 	      };
@@ -22436,10 +22436,10 @@
 	          borderWidth: 2,
 	          borderRadius: '50%',
 	          borderStyle: 'solid',
-	          borderColor: disabled ? disabledColor || '#e1e1e1' : rootColor || '#9E9E9E'
+	          borderColor: disabled ? disabledColor  || '#FFFFFF'
 	        },
 	        checked: {
-	          borderColor: pointColor || '#8CB9FD'
+	          borderColor: pointColor || '#FFFFFF'
 	        },
 	        inner: {
 	          width: innerSize || 10,
